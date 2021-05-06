@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "example9ed3755d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "videoplayer": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
